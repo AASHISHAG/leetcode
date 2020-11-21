@@ -1,5 +1,9 @@
 # https://www.geeksforgeeks.org/count-the-number-of-visible-nodes-in-binary-tree
 # microsoft codility
+"""
+Given a Binary tree, the task is to find the number of visible nodes in the given binary tree.
+A node is a visible node if, in the path from the root to the node N, there is no node with greater value than N’s.
+"""
 
 import sys
 
