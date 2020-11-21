@@ -6,7 +6,7 @@ The uppercase character should be returned. If there is no such character then r
 """
 
 # Time Complexity: O(N)
-# Space Complexity: O(1)
+# Space Complexity: O(N)
 def largest_alphabetic_charcater(text: str) -> chr:
     text = list(text)
     lower = [False]*27
