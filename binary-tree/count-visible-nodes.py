@@ -1,4 +1,4 @@
-# https://www.geeksforgeeks.org/count-the-number-of-visible-nodes-in-binary-tree/
+# https://www.geeksforgeeks.org/count-the-number-of-visible-nodes-in-binary-tree
 # microsoft codility
 
 import sys
