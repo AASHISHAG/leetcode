@@ -5,3 +5,4 @@
 
 ## String
 1. [Largest alphabetic character](https://github.com/AASHISHAG/leetcode/blob/main/string/larget-alphabetic-character.py)
+2. [Pattern recognition](https://github.com/AASHISHAG/leetcode/blob/main/string/pattern-recognition.py)
