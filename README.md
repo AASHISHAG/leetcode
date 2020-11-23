@@ -6,3 +6,6 @@
 ## String
 1. [Largest alphabetic character](https://github.com/AASHISHAG/leetcode/blob/main/string/larget-alphabetic-character.py)
 2. [Pattern recognition](https://github.com/AASHISHAG/leetcode/blob/main/string/pattern-recognition.py)
+
+## Integers
+1. [Maximum sum of two elements whose digit sum is equal](https://github.com/AASHISHAG/leetcode/blob/main/integers/maximum-sum.py)
