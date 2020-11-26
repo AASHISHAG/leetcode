@@ -9,4 +9,4 @@
 
 ## Integers
 1. [Maximum sum of two elements whose digit sum is equal](https://github.com/AASHISHAG/leetcode/blob/main/integers/maximum-sum.py)
-2. [Maximum positive and negative number](https://github.com/AASHISHAG/leetcode/blob/main/integers/maximum-pos-neg.py)
+2. [Maximum positive and negative number](https://github.com/AASHISHAG/leetcode/blob/main/integers/max-pos-neg.py)
