@@ -1,0 +1,19 @@
+# source: https://leetcode.com/discuss/general-discussion/1050754/explain-time-complexity-to-a-10-year-old
+
+
+Explain time complexity to me as If I were a 10 year old.
+
+Say you have a test tomorrow in which you will be given a number N and you will need to find out the sum 1 + 2 + .. + N. So if N = 3 you will need to tell the answer as 1 + 2 + 3 = 6. The Teacher has already announced that N will not be larger than 10.
+
+You are good with addition but you were not fast enough so could not complete all the problems. Your friend aced the test. You asked him how, he told you honestly that he had memorized all the answers and came for the test. He memorized 10 integers while you had to memorize nothing.
+
+The next test was harder, the same N can be up to 100. Both you and your friend did poorly this time. He couldn't memorize 100 integers and you were slow. As this N got larger, the time you need to answer increased whereas for your friend the time stayed the same but the integers he had to memorize increased.
+
+The topper of the class noticed that actually a simple formula can be used to answer any problem. If the teacher asked 1+2+..+N he would answer N*(N+1)/2.
+
+Here is the grading:
+You: O(1) space but O(N) time
+Your friend: O(1) time but O(N) space
+Topper: O(1) time and O(1) space
+
+Guess which one grew up to be a programmer, all of them :p
