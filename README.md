@@ -1,8 +1,8 @@
 # leetcode
 
-![Time Complexity]<img src="./media/time-complexity.PNG" width="50%" height="50%">
-![Data Structures Complexity](./media/data-structures-complexity.PNG){:height="50%" width="50%"}
-![Sorting Complexity](./media/sorting-complexity.PNG){:height="50%" width="50%"}
+![Time Complexity]<img src="./media/time-complexity.PNG" width="80%" height="80%">
+![Data Structures Complexity]<img src="./media/data-structures-complexity.PNG" width="80%" height="80%">
+![Sorting Complexity]<img src="./media/sorting-complexity.PNG" width="80%" height="80%">
 
 ## General Questions
 1. [Time and Space complexity](https://github.com/AASHISHAG/leetcode/blob/main/general-questions/time-space-complexity.txt)
