@@ -1,5 +1,9 @@
 # leetcode
 
+![DeepSpeech](./media/time-complexity.png)
+![DeepSpeech](./media/data-structures-complexity.png)
+![DeepSpeech](./media/sorting-complexity.png)
+
 ## General Questions
 1. [Time and Space complexity](https://github.com/AASHISHAG/leetcode/blob/main/general-questions/time-space-complexity.txt)
 
