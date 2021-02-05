@@ -1,6 +1,6 @@
 # leetcode
 
-![Time Complexity](./media/time-complexity.PNG){:height="50%" width="50%"}
+![Time Complexity]<img src="./media/time-complexity.PNG" width="50%" height="50%">
 ![Data Structures Complexity](./media/data-structures-complexity.PNG){:height="50%" width="50%"}
 ![Sorting Complexity](./media/sorting-complexity.PNG){:height="50%" width="50%"}
 
