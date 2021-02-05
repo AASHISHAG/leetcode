@@ -1,7 +1,7 @@
 # leetcode
 
 <img src="./media/time-complexity.PNG" width="80%" height="80%">
-<img src="./media/data-structures-complexity.PNG" width="80%" height="80%">
+<img src="./media/data-structures-complexity.PNG">
 <img src="./media/sorting-complexity.PNG" width="80%" height="80%">
 
 ## General Questions
