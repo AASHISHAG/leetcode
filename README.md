@@ -1,7 +1,7 @@
 # leetcode
 
-## Time and Space Complexity
-1. [](https://github.com/AASHISHAG/leetcode/blob/main/general-questions/time-space-complexity.txt)
+## General Questions
+1. [Time and Space complexity](https://github.com/AASHISHAG/leetcode/blob/main/general-questions/time-space-complexity.txt)
 
 ## Binary Tree
 1. [Count visible nodes](https://github.com/AASHISHAG/leetcode/blob/main/binary-tree/count-visible-nodes.py)
