@@ -11,7 +11,6 @@ def reverseWords(text):
 		text[left], text[right] = text[right], text[left]
 		left +=1
 		right -=1
-		
 	return '.'.join(text)
 	
 	
