@@ -13,7 +13,7 @@ def reverseWords(text):
 		right -=1
 	return '.'.join(text)
 	
-	
+
 if __name__ == '__main__':
     text1 = "i.like.this.program.very.much" # much.very.program.this.like.i
     text2 = "pqr.mno" # mno.pqr
