@@ -17,9 +17,9 @@ def reverseWords(text):
 if __name__ == '__main__':
     text1 = "i.like.this.program.very.much" # much.very.program.this.like.i
     text2 = "pqr.mno" # mno.pqr
-	
-	output1 = reverseWords(text1)
-	output2 = reverseWords(text2)
+
+    output1 = reverseWords(text1)
+    output2 = reverseWords(text2)
 
     print(output1)
-	print(output2)
+    print(output2)
