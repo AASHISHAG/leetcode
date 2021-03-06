@@ -20,4 +20,6 @@
 ## Integers
 1. [Maximum sum of two elements whose digit sum is equal](https://github.com/AASHISHAG/leetcode/blob/main/integers/maximum-sum.py) - Microsoft
 2. [Maximum positive and negative number](https://github.com/AASHISHAG/leetcode/blob/main/integers/max-pos-neg.py) - Microsoft
-3. [Meeting Rooms](https://github.com/AASHISHAG/leetcode/blob/main/integers/meeting-rooms.py) - Microsoft
+
+## Intervals
+1. [Meeting Rooms](https://github.com/AASHISHAG/leetcode/blob/main/intervals/meeting-rooms.py) - Microsoft
