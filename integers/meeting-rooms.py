@@ -32,7 +32,7 @@ def find_possibility1(input):
 # The challenge in this solutionn is that I am assuming a fixed lenghth time interval, which may be problematic
 # Time Complexity: O(NlogN)
 # Space Complexity: O(1)
-# 
+# https://www.youtube.com/watch?v=aby3aYFjFT0
 def find_possibility2(input):
 
     print(input)
