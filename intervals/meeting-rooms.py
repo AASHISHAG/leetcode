@@ -14,7 +14,7 @@ Output: True
 """
 
 # Solution 1:
-# The challenge in this solutionn is that I am assuming a fixed lenghth time interval, which may be problematic
+# The challenge in this solution is that I am assuming a fixed lenghth time interval, which may be problematic
 # Time Complexity: O(N)
 # Space Complexity: O(1)
 def find_possibility1(input):
@@ -29,7 +29,6 @@ def find_possibility1(input):
 
 
 # Solution 2:
-# The challenge in this solutionn is that I am assuming a fixed lenghth time interval, which may be problematic
 # Time Complexity: O(NlogN)
 # Space Complexity: O(1)
 # https://www.youtube.com/watch?v=aby3aYFjFT0
