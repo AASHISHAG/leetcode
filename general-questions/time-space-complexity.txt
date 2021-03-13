@@ -19,3 +19,6 @@ Your friend : O(1) time but O(N) space
 Topper      : O(1) time and O(1) space
 
 Guess which one grew up to be a programmer, all of them :D
+
+
+# In general O(n) notation tells how much the run time, and space complexity scales when input becomes very large. It gives upper bound function behavior (tail/asymptotic).
