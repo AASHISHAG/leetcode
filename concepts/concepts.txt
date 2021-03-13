@@ -1,1 +1,5 @@
 1. Two pointer
+2. Maintain lists (At the start of the problem initialize a list of constant size. With each input, change the value of the element to TRUE.) Ex: https://github.com/AASHISHAG/leetcode/blob/main/string/larget-alphabetic-character.py
+3. Maintain dicts (The key in the dict represents something you are searching for. The value represents the result.)
+4. Recursion
+5. 
