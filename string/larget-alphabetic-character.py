@@ -6,7 +6,7 @@ The uppercase character should be returned. If there is no such character then r
 """
 
 # Time Complexity: O(N)
-# Space Complexity: O(N)
+# Space Complexity: O(1)
 def largest_alphabetic_charcater(text: str) -> chr:
     text = list(text)
     lower = [False]*27
@@ -15,7 +15,7 @@ def largest_alphabetic_charcater(text: str) -> chr:
     a = ord('a')
     A = ord('A')
     for index, ch in enumerate(text):
-        if ch.islower(): lower[ord(ch)-a] = True 
+        if ch.islower(): lower[ord(ch)-a] = True  # we can make the complexity of this step to O(1) by storing the numerical value of characters in dict
         else: upper[ord(ch)-A]  = True
 
     for index in range(26,-1,-1):
