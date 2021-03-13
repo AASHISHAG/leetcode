@@ -1,3 +1,6 @@
+# https://leetcode.com/discuss/interview-question/406031/
+# microsoft codility
+
 """
 Largest K such that both K and -K exist in array.
 Write a function that, given an array A of N integers, returns the lagest integer K > 0 such that both values K and -K exist in array A. If there is no such integer, the 
@@ -14,4 +17,4 @@ Example 2:
     Output: 0
 """
 
-# microsoft codility
+
