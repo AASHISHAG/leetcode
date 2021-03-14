@@ -1,10 +1,11 @@
 # https://www.geeksforgeeks.org/maximum-sum-of-two-elements-whose-digit-sum-is-equal/
+# https://molchevskyi.medium.com/numbers-with-equal-digit-sum-c8a7e01ad7db
 # microsoft codility
 
 import sys
 from collections import defaultdict
 
-# Time Complexity: O(N)
+# Time Complexity: O(N^2)
 # Space Complexity: O(N)
 def find_numbers(nums):
     map = defaultdict(list)
