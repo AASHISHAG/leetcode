@@ -17,4 +17,42 @@ Example 2:
     Output: 0
 """
 
+import sys
+
+# Time Complexity: O(N)
+# Space Complexity: O(N)
+def get_max_pos_neg_num(input: list):
+
+    input_uniq = set(input)
+    max_flag = False
+    max_num = -sys.maxsize
+    for elem in input:
+        if -1*elem in input_uniq:
+            if abs(elem) > max_num:
+                max_num = abs(elem)
+                max_flag = True
+    return max_num if max_flag else 0
+
+# Time Complexity: O(NlogN)
+# Space Complexity: O(1)
+def get_max_pos_neg_num_approach_2(input: list):
+
+    input = sorted(input)
+    left, right = 0, len(input - 1)
+    while left < right:
+        if input[left] + input[right] == 0:
+            return input[right]
+        elif input[left] + input[right] > 0:
+            right -= 1
+        else:
+            left += 1
+    return 0
+
+if __name__ == '__main__':
+
+    input1 = [3, 2, -2, 5, -3]
+    input2 = [1, 2, 3, -4]
+    result = get_max_pos_neg_num(input1)
+    print(result)
+
 
