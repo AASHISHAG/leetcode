@@ -35,4 +35,3 @@ if __name__ == '__main__':
     result = find_numbers(nums1)
     
     print(result)
-    
