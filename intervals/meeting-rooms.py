@@ -13,12 +13,21 @@ Input: [[7,10],[2,4]]
 Output: True
 """
 
+import sys
+import cProfile
+
 # Solution 1:
 # The challenge in this solution is that I am assuming a fixed lenghth time interval, which may be problematic
-# Time Complexity: O(N)
+# Time Complexity: O(N^2)
 # Space Complexity: O(1)
 def find_possibility1(input):
-    slot = [0]*59
+
+    new_input = []
+    for sub_list in input:
+        new_input.extend(sub_list)
+    max_input = max(new_input)
+
+    slot = [0]*max_input
 
     for start, end in input:
         if sum(slot[start:end+1]) > 0:
@@ -46,5 +55,5 @@ if __name__ == '__main__':
     input1 = [[0,30],[5,10],[15,20]]
     input2 = [[7,10],[2,4]]
 
-    result = find_possibility2(input1)
+    result = find_possibility1(input2)
     print(result)
