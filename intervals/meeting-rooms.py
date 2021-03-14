@@ -13,11 +13,7 @@ Input: [[7,10],[2,4]]
 Output: True
 """
 
-import sys
-import cProfile
-
 # Solution 1:
-# The challenge in this solution is that I am assuming a fixed lenghth time interval, which may be problematic
 # Time Complexity: O(N^2)
 # Space Complexity: O(1)
 def find_possibility1(input):
@@ -34,7 +30,7 @@ def find_possibility1(input):
             return False
         else:
             slot[start:end+1] = [1]*(end+1-start)
-    return True       
+    return True
 
 
 # Solution 2:
