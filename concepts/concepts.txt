@@ -3,4 +3,4 @@
 3. Maintain dicts (The key in the dict represents something you are searching for. The value represents the result.)
 4. Recursion
 5. To search the item, we should use set(). It has O(1) avg. search complexity, instead of lists. However, to add items in the set() the complexity is O(n). Source: https://www.youtube.com/watch?v=rfvc66Qog4o
-6. Heapq: maintains the minimum element on top of the queue (https://www.pythoncontent.com/heapq-in-python/)
+6. Heapq: maintains the minimum element on top of the queue (https://www.pythoncontent.com/heapq-in-python/) O(n): time complexity to heapify the list.
