@@ -26,4 +26,5 @@
 
 ## Intervals
 1. [Meeting Rooms](https://github.com/AASHISHAG/leetcode/blob/main/intervals/meeting-rooms.py) - Microsoft
-1. [Meeting Rooms II](https://github.com/AASHISHAG/leetcode/blob/main/intervals/meeting-rooms-ii.py) - Microsoft
+2. [Meeting Rooms II](https://github.com/AASHISHAG/leetcode/blob/main/intervals/meeting-rooms-ii.py) - Microsoft
+3. [Merge Intervals](https://github.com/AASHISHAG/leetcode/blob/main/intervals/merge-intervals.py) - Facebook
