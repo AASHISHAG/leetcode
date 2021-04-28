@@ -5,6 +5,11 @@ Given a Binary tree, the task is to find the number of visible nodes in the give
 A node is a visible node if, in the path from the root to the node N, there is no node with greater value than N’s.
 """
 
+"""
+This question is similar to 98. Validate Binary Search Tree on Leetcode
+https://leetcode.com/problems/validate-binary-search-tree/
+"""
+
 import sys
 
 class Node:
@@ -14,8 +19,7 @@ class Node:
         self.right = None
 
 count = 0
-
-# recurssion
+# pre-order traversal
 # Time Complexity: O(N) where N is a number of nodes in the BT 
 # Space Complexity: O(1)
 def count_visible_nodes(node, mx):
@@ -45,5 +49,5 @@ if __name__ == '__main__':
     root.right.left = Node(1)
     
     # counting visible nodes
-    count_visible_nodes(root, -sys.maxsize)
+    count_visible_nodes(root, -sys.maxsize) # or use root.val and set the default count to 1
     print(count)
