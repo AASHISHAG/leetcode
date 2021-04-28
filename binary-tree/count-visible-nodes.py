@@ -26,7 +26,7 @@ def count_visible_nodes(node, mx):
     global count
     if node.data > mx:
         count += 1
-        mx = max(node.data, mx)
+        mx = node.data
     if node.left: count_visible_nodes(node.left, mx)
     if node.right: count_visible_nodes(node.right, mx)
     
