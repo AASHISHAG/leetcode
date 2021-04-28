@@ -1,3 +1,8 @@
+"""
+Easier to implement using defaultdict
+Check Leetcode: https://leetcode.com/problems/implement-trie-prefix-tree/
+"""
+
 class Trie:
     def __init__(self, val):
         self.val = val
@@ -5,6 +10,9 @@ class Trie:
         self.is_word = False
 
 
+"""
+In this the idea is to find the value in the children (not like binary tree) because here we have # as the default value
+"""
 def insert(root, word):
 
     for ch in word:
@@ -18,7 +26,6 @@ def insert(root, word):
             node = Trie(ch)
             root.children.append(node)
             root = node
-
     root.is_word = True
 
 
@@ -36,12 +43,12 @@ def find_prefix(root, word):
     return True
 
 
-
 def print_prefix(root):
 
     while len(root.children) == 1 and not root.is_word:
         root = root.children[0]
         print(root.val)
+
 
 if __name__ == '__main__':
     root = Trie('#')
