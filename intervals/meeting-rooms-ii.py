@@ -1,6 +1,7 @@
 # leetcode
 # microsoft
 # https://www.youtube.com/watch?v=qx7Akat3xrM
+# https://leetcode.com/problems/meeting-rooms-ii/
 
 """
 Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei),
@@ -21,13 +22,15 @@ import heapq
 def find_possibility1(input):
 
     input.sort(key=lambda x:x[0])
-    heap = [input[0][1]]
+    hq = []
+    heapq.heappush(hq, intervals[0][1])
+    
     for start, end in input[1:]:
-        if start > heap[0]:
-            heapq.heappop(heap)
-        heapq.heappush(heap, end)
+        if start >= hq[0]:
+            heapq.heappop(hq)        
+        heapq.heappush(hq, end)
 
-    return len(heap)
+    return len(hq)
 
 if __name__ == '__main__':
     input1 = [[0,30],[5,10],[15,20]] #2
