@@ -32,6 +32,26 @@ def find_possibility1(input):
 
     return len(hq)
 
+# Time Complexity: O(Nlog N)
+# Space Complexity: O(N)
+def find_possibility1(input):
+    
+    starts, ends = [], []
+    for start, end in input:
+        starts.append(start)
+        ends.append(end)
+
+    starts.sort()
+    ends.sort()
+    
+    rooms, index_end = 0, 0
+    for start in starts:
+        if start < ends[index_end]: rooms += 1
+        else: index_end += 1
+            
+    return rooms
+                
+
 if __name__ == '__main__':
     input1 = [[0,30],[5,10],[15,20]] #2
     input2 = [[7,10],[2,4]] #1
