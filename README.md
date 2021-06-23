@@ -21,6 +21,7 @@
 1. [Largest alphabetic character](https://github.com/AASHISHAG/leetcode/blob/main/string/larget-alphabetic-character.py) - Microsoft
 2. [Pattern recognition](https://github.com/AASHISHAG/leetcode/blob/main/string/pattern-recognition.py) - Microsoft
 3. [Reverse words in a given string](https://github.com/AASHISHAG/leetcode/blob/main/string/reverse-words-in-a-given-string.py) - Geeks for Geeks
+4. [Group anagrams](https://github.com/AASHISHAG/leetcode/blob/main/string/group-anagrams.py) - General
 
 ## Integers
 1. [Maximum sum of two elements whose digit sum is equal](https://github.com/AASHISHAG/leetcode/blob/main/integers/maximum-sum.py) - Microsoft
