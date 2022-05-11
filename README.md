@@ -1,5 +1,7 @@
 # leetcode
 
+A data structure is a way to store and organize data.
+
 <p align="center">
 <img src="./media/time-complexity.PNG" width="80%" height="80%" align="middle">
 <img src="./media/data-structures-complexity.PNG" align="middle">
