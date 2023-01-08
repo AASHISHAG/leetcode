@@ -5,7 +5,6 @@ class Node:
         self.left = None
         self.right = None
 
-
 def print_tree(node):
     # print(node.data) # - preorder (1,2,4,5,3,6,7)
     if node.left: print_tree(node.left)
@@ -54,7 +53,6 @@ def print_tree(node):
     return root
     '''
 
-
 if __name__ == '__main__':
     root = Node(1)
     root.left = Node(2)
@@ -65,5 +63,3 @@ if __name__ == '__main__':
     root.right.right = Node(7)
 
     print_tree(root)
-
-
