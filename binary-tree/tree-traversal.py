@@ -25,7 +25,7 @@ def print_tree(node):
     '''
 
     '''
-    2. Level order traversal - DFS
+    2. DFS
     '''
 
     '''
@@ -40,7 +40,7 @@ def print_tree(node):
     '''
 
     '''
-    3. Level order traversal - BFS
+    3. BFS / Level order traversal
     '''
         
     '''
